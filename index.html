@@ -3,15 +3,195 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
     <title>Homepage</title>
 </head>
 <body>
-    <h1>Kenzi Fukuda</h1>
+    <h1>Welcome</h1>
+
+    <div class="nav">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="me.html">About Me</a>
+            </li>
+            <li>
+                <a href="blog.html">Where Is My Mind</a>
+            </li>
+            <li>
+                <a href="career.html">Professional</a>
+            </li>
+            <li>
+                <a href="interests.html">Google Search Compilations</a>
+            </li>
+            <li>
+                <a href="listening.html">Current Vibes</a>
+            </li>
+        </ul>
+
+    </div>
+
+    <div id="line">
+
+    </div>
+
+    <table class="blog">
+        <caption>Featured Post</caption>
+
+        <tr>
+            <td>
+                <iframe src="blog.html" frameborder="0"></iframe>
+            </td>           
+        </tr>
+    </table>
 
 
-    <p>
-        <a href="proposal.html">My Proposal</a>
-    </p>
+    <table class="big">
+        <caption>Hello</caption>
+
+        <tr>
+            <td>
+                What is this?
+            </td>
+            <td>
+                About Me
+            </td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">
+                Welcome! If you're visiting this page, you're either a friend or a stalker. 
+                If you are the latter, please only save the good pictures. I take plenty of bad ones myself.
+                This website is the product of my boredom and desire to start creating my own content.
+                If you've followed me over the last two years through my finsta (@koogie_fuckyouduh), you know I like
+                 to keep things interesting and dramatic. I complain a lot and constantly find myself in strange,
+                 uncomfortable, and unexpected situations. This place will be a little different.
+                Here you will find a blog separated into several sections for my thoughts on the world and my personal growth as a human,
+                concepts that I think  need be explored or questioned further (usually resulting from smoking too much weed), and some 
+                recommendations for music, movies, books, etc. that I think are worth looking into.
+                <br>
+                DISCLAIMER: Nothing I write in my blog posts are likely to be based in facts because researching these things in depth is
+                too much work rignt now. But if I am using outside research, I'll be sure to provide my sources. 
+                Besides the blog, I also have a page dedicated to my random Google searches as previously seen on my finsta.
+                AND for when/if I start recording podcast episodes, that will be uploaded here as well. Still working on a title for the podcast,
+                and I am taking suggestions :)
+                <br>
+                I'm hoping to add other pages to this as well for art or business ideas or anything else I feel like putting on here, so stay tuned...
+                <br>
+                 So with that, I hope you enjoy! Scroll to the bottom if you have any comments or suggestions for the page that you'd like to send in. Or just text me, because most of you probably have less awkward way of contacting me. Please feel free to subscribe to the blog so you get updated any time I post something new. But also you don't have to if the emails are annoying. This is more for my own entertainment than anyone else's. YOU'RE NOT SPECIAL
+            </td>
+            <td>
+                <div>
+                    <img id="ugly" src="images/ugly selfie(1).jpg" title="kenzi-fukuda" alt="selfie">
+                </div>
+                <div>
+                    My name is Kenzi, and welcome to my M I N D
+                    <br>
+                    I am really bored in quarantine, and thought this would be a good way to keep myself busy.
+                    I hope you find my content amusing, or at the very least, that it keeps you occupied for a 
+                    little while each time you visit.
+                    <br>
+                    <a href="me.html">Read More</a>
+                </div>
+                
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    Follow Me:
+                </div>
+                <div id="social-media">
+                    <a href="https://www.instagram.com/f__kenzi/"><img class="social" src="images/instagram-icon.webp" title="instagram" alt="instagram"></a>
+                    <a href="https://twitter.com/KenziFukuda"><img class="social" src="images/twitter-icon.png" title="twitter" alt="twitter"></a>
+                    <a href="https://www.linkedin.com/in/kenzifukuda/"><img class="social" src="images/linkedin-icon.png" title="linkedin" alt="linkedin"></a>
+                </div>
+                
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                Question of the Week:
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                Where is the fly at???
+            </td>
+        </tr>
+    </table>
+
+
+    <div class="feedback">
+        <form method="POST" action="mailto:kfukuda1@babson.edu">
+            <fieldset>
+                <legend>Feedback:</legend>
+                <div id="last-name-input">
+                    <label for="last-name">Last Name:</label>
+                    <input 
+                    type="text"
+                    name="last-name"
+                    id="last-name"
+                    placeholder="Enter Last Name"
+                    />
+                </div>
+            
+                <div id="first-name-input">
+                    <label for="first-name">First Name:</label>
+                    <input 
+                    type="text"
+                    name="first-name"
+                    id="first-name"
+                    placeholder="Enter First Name"
+                    />
+                </div>
+            
+                <div id="email-input">
+                    <label for="email">Email:</label>
+                    <input 
+                    type="text"
+                    name="email"
+                    id="email"
+                    placeholder="Enter Email"
+                    />
+                </div>
+                
+
+                <div>
+                    <div>
+                        <label for="comments">Leave a Reply</label>
+                    </div>
+                    <div>
+                        <textarea name="comments" id="comments" cols="30" rows="7" placeholder="Leave a reply here..."></textarea>
+                    </div>
+            
+                </div>
+            
+                <div>
+                    <button 
+                        type="submit"
+                        name="submit">Submit <img class="buttons" src="images/mailbox.png" title="submit" alt="submit">
+                    </button>
+                    <button 
+                        type="reset"
+                        name="reset">Reset <img class="buttons" src="images/reset.png" title="reset" alt="reset">
+                    </button>
+                </div> 
+
+
+            </fieldset>
+            
+        </form>
+
+    </div>
     
+    <div id="line">
+
+    </div>
+    <a href="sitemap.html">Sitemap</a>
 </body>
 </html>

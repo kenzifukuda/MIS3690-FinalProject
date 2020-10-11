@@ -1,0 +1,71 @@
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.big tr,
+.big td{
+    border: black 2px solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+caption{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.social{
+    width: 50px;
+}
+
+#ugly{
+    width:100px;
+}
+
+.buttons{
+    width: 20px;
+}
+
+fieldset{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav {
+    overflow: hidden;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 23%;
+  }
+  
+  .nav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+  }
+  
+
+  .nav a:hover {
+    background-color: grey;
+  }
+
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li{
+      float: left;
+  }
+
+  li a{
+    display: block;
+    padding: 8px;
+  }
+
+  .blog{
+      width: 80%;
+      padding: 10px;
+      margin-left: 20%;
+  }

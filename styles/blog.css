@@ -1,0 +1,48 @@
+fieldset{
+    border: 2px solid black;
+    margin: auto;
+    padding: 20px;
+}
+
+legend{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    overflow: hidden;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 23%;
+  }
+  
+  .nav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+  }
+  
+
+  .nav a:hover {
+    background-color: grey;
+  }
+
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li{
+      float: left;
+  }
+
+  li a{
+    display: block;
+    padding: 8px;
+  }
