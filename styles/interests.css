@@ -52,6 +52,7 @@ img{
 
 footer{
   font-family: 'Roboto Slab';
+  border-top: black 2px solid;
 }
 
 #contact{

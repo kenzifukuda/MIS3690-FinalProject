@@ -59,6 +59,11 @@ a{
   background-color: lavender;
 }
 
+footer{
+  font-family: 'Roboto Slab';
+  border-top: black 2px solid;
+}
+
 #contact{
   list-style: none;
 }

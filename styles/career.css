@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&family=Roboto+Slab&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&family=Roboto+Slab&display=swap');
 header{
     margin: 5px;
     border: 2px black solid;
@@ -48,8 +46,8 @@ h1{
 
 footer{
   font-family: 'Roboto Slab';
+  border-top: black 2px solid;
 }
-
 #contact{
   list-style: none;
 }
@@ -57,3 +55,4 @@ footer{
 #contact li{
   display: inline-block;
 }
+
