@@ -45,12 +45,12 @@ h1{
 }
 
 p{
-  font-family: 'Roboto Slab';
-}
+    font-family: 'Roboto Slab';
+  }
 
 footer{
   font-family: 'Roboto Slab';
-  border-top: black 2px solid;
+  border-top: 2px black solid;
 }
 
 #contact{

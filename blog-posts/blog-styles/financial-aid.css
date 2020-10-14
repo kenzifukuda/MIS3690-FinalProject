@@ -44,6 +44,10 @@ h1{
   background-color: lavender;
 }
 
+p{
+  font-family: 'Roboto Slab';
+}
+
 footer{
   font-family: 'Roboto Slab';
 }
