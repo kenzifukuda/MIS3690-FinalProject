@@ -1,24 +1,47 @@
-h2 {
-    float: left;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&family=Roboto+Slab&display=swap');
+header{
+    margin: 5px;
+    border: 2px black solid;
+    padding: 2px;
+    display: block;
+    width: 100%;
+    text-align: center;
 }
 
 #logo{
     width: 50px;
+    float:left;
 }
 
 h1{
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto Slab';
+}
+
+#blog{
+    text-align: center;
+    margin: auto;
+  }
+
+iframe{
+    border-color: black;
 }
 
 .big tr,
 .big td{
     border: black 2px solid;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    color: black;
 }
 
-caption{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+#what{
+    text-align: center;
+}
+
+h2{
+    font-family: 'Roboto Slab';
+    text-align: center;
 }
 
 .social{
@@ -29,51 +52,64 @@ caption{
     width:100px;
 }
 
-.buttons{
+#submit{
+    background-color: #7a12ff;
+    color: white;
+    font-family: 'Roboto Slab';
+    border: none;
+}
+
+#reset{
+    background-color: #7a12ff;
+    color: white;
+    font-family: 'Roboto Slab';
+}
+
+.button-img{
     width: 20px;
 }
 
 fieldset{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
 }
+
+
 
 .nav {
     overflow: hidden;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 23%;
-  }
-  
-  .nav a {
-    float: left;
-    display: block;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
     text-align: center;
-    padding: 8px;
+
+  }
+
+.nav li{
+    width: 15%;
+    float: left;
+    text-transform: capitalize;
+    list-style: none;
+    text-align: center;
+    }
+  
+.nav a {
+    padding: 10px;
     text-decoration: none;
+    display: inline-block;
   }
   
-
-  .nav a:hover {
-    background-color: grey;
+.nav a:hover {
+    background-color: lavender;
   }
 
-  ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
+footer{
+    font-family: 'Roboto Slab';
+}
 
-  li{
-      float: left;
-  }
+#contact{
+    list-style: none;
+}
 
-  li a{
-    display: block;
-    padding: 8px;
-  }
-
-  .blog{
-      width: 80%;
-      padding: 10px;
-      margin-left: 20%;
-  }
+#contact li{
+    display: inline-block;
+}

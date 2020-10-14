@@ -7,53 +7,53 @@
     <title>Homepage</title>
 </head>
 <body>
-    <h2>Kenzi Fukuda <img id="logo" src="images/personal logo.png" title="logo" alt="kf-logo"></h2>
-    <h1>Welcome</h1>
+    <header>
+        <h1><img id="logo" src="images/personal logo.png" title="logo" alt="kf-logo"></h1>
+        <h1>Welcome</h1>
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="me.html">About Me</a>
+                </li>
+                <li>
+                    <a href="blog.html">Where Is My Mind</a>
+                </li>
+                <li>
+                    <a href="career.html">Professional</a>
+                </li>
+                <li>
+                    <a href="interests.html">Google Search Compilations</a>
+                </li>
+                <li>
+                    <a href="listening.html">Current Vibes</a>
+                </li>
+            </ul>
+    
+        </div>
+    
+    
+    </header>
 
-    <div class="nav">
-        <ul>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="me.html">About Me</a>
-            </li>
-            <li>
-                <a href="blog.html">Where Is My Mind</a>
-            </li>
-            <li>
-                <a href="career.html">Professional</a>
-            </li>
-            <li>
-                <a href="interests.html">Google Search Compilations</a>
-            </li>
-            <li>
-                <a href="listening.html">Current Vibes</a>
-            </li>
-        </ul>
-
-    </div>
+    
 
     <div id="line">
 
     </div>
 
-    <table class="blog">
-        <caption>Featured Post</caption>
-
-        <tr>
-            <td>
-                <iframe src="blog.html" frameborder="0"></iframe>
-            </td>           
-        </tr>
-    </table>
+    <div id="blog">
+            <h2>Featured Post</h2>
+            <iframe src="blog-posts/kpop.html" frameborder="1" width="100%"></iframe>
+    </div>
+    
 
 
     <table class="big">
-        <caption>Hello</caption>
 
         <tr>
-            <td>
+            <td id="what">
                 What is this?
             </td>
             <td>
@@ -63,15 +63,15 @@
 
         <tr>
             <td rowspan="2">
-                Welcome! If you're visiting this page, you're either a friend or a stalker. 
-                If you are the latter, please only save the good pictures. I take plenty of bad ones myself.
-                This website is the product of my boredom and desire to start creating my own content.
-                If you've followed me over the last two years through my finsta (@koogie_fuckyouduh), you know I like
-                 to keep things interesting and dramatic. I complain a lot and constantly find myself in strange,
-                 uncomfortable, and unexpected situations. This place will be a little different.
-                Here you will find a blog separated into several sections for my thoughts on the world and my personal growth as a human,
-                concepts that I think  need be explored or questioned further (usually resulting from smoking too much weed), and some 
+                Welcome! You've stumbled upon my new personal website. Previously, I was using Wix to create host my website, but 
+                I've decided to give web design from scratch a try. I apologize if it's not as aesthetically appealing (yet).
+                This website is a product of a class project I have to do to pass, my own boredom, and the desire to start creating
+                my own content. If you follow my finsta, you know I like to keep things interesting and dramatic. I complain a lot and constantly find myself in strange,
+                uncomfortable, and unexpected situations. This place will be a little different.                
+                Here you will find a blog for my thoughts on the world,
+                concepts that I think  need be explored or questioned further, and some 
                 recommendations for music, movies, books, etc. that I think are worth looking into.
+                In addition, I have added a page for all my professional work experiences and projects. Will I be puttng this on my resume to show to employers? We'll see how good it looks later on.
                 <br>
                 DISCLAIMER: Nothing I write in my blog posts are likely to be based in facts because researching these things in depth is
                 too much work rignt now. But if I am using outside research, I'll be sure to provide my sources. 
@@ -79,9 +79,11 @@
                 AND for when/if I start recording podcast episodes, that will be uploaded here as well. Still working on a title for the podcast,
                 and I am taking suggestions :)
                 <br>
-                I'm hoping to add other pages to this as well for art or business ideas or anything else I feel like putting on here, so stay tuned...
+                I'm hoping to add other pages as well for art or business ideas or anything else I feel like putting on here, so stay tuned...
                 <br>
-                 So with that, I hope you enjoy! Scroll to the bottom if you have any comments or suggestions for the page that you'd like to send in. Or just text me, because most of you probably have less awkward way of contacting me. Please feel free to subscribe to the blog so you get updated any time I post something new. But also you don't have to if the emails are annoying. This is more for my own entertainment than anyone else's. YOU'RE NOT SPECIAL
+                So with that, I hope you enjoy! Scroll to the bottom if you have any comments or suggestions for the page that you'd like to send in.
+                Or just text me, because most of you probably have less awkward way of contacting me. 
+                This is more for my own entertainment than anyone else's.
             </td>
             <td>
                 <div>
@@ -90,7 +92,7 @@
                 <div>
                     My name is Kenzi, and welcome to my M I N D
                     <br>
-                    I am really bored in quarantine, and thought this would be a good way to keep myself busy.
+                    I am really bored during this pandemic, and thought this would be a good way to keep myself busy.
                     I hope you find my content amusing, or at the very least, that it keeps you occupied for a 
                     little while each time you visit.
                     <br>
@@ -128,7 +130,7 @@
 
 
     <div class="feedback">
-        <form method="POST" action="mailto:kfukuda1@babson.edu">
+        <form method="POST" action="kenzifukuda.me">
             <fieldset>
                 <legend>Feedback:</legend>
                 <div id="last-name-input">
@@ -173,13 +175,13 @@
                 </div>
             
                 <div>
-                    <button 
+                    <button id="submit"
                         type="submit"
-                        name="submit">Submit <img class="buttons" src="images/mailbox.png" title="submit" alt="submit">
+                        name="submit">Submit <img class="button-img" src="images/mailbox.png" title="submit" alt="submit">
                     </button>
-                    <button 
+                    <button id="reset"
                         type="reset"
-                        name="reset">Reset <img class="buttons" src="images/reset.png" title="reset" alt="reset">
+                        name="reset">Reset <img class="button-img" src="images/reset.png" title="reset" alt="reset">
                     </button>
                 </div> 
 
@@ -193,21 +195,30 @@
     <div id="line">
 
     </div>
-    <a href="sitemap.html">Sitemap</a>
-    <p>
-        Contact Details:
+
+    <footer>
+        <div>
+            <a href="sitemap.html">Sitemap</a>
+        </div>
+                  
         <ul id="contact">
             <li>
-                Name: Kenzi Fukuda
+                Contact Info:
             </li>
             <li>
-                Email: <a href="mailto:kfukuda1@babson.edu">kfukuda1@babson.edu</a>
+                | Name: Kenzi Fukuda |
+            </li>
+            <li>
+                Email: <a href="mailto:kfukuda1@babson.edu">kfukuda1@babson.edu</a> |
             </li>
             <li>
                 Phone: 201-362-7472
             </li>
         </ul>
-
-    </p>
+    
+        </p>
+    </footer>
+    
+    
 </body>
 </html>
