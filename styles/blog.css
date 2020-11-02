@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&family=Roboto+Slab&display=swap');
 header{
     margin: 5px;
-    border: 2px black solid;
+    border: 2px #7a12ff solid;
     padding: 2px;
     display: block;
     width: 100%;
@@ -19,34 +19,34 @@ h1{
 }
 
 
+
 fieldset{
-    border: 2px solid black;
-    margin: auto;
-    padding: 20px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+  border: 2px solid #7a12ff;
+  margin: auto;
+  padding: 20px;
 }
 
 legend{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-a{
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto Slab';
 }
 
 .nav {
   overflow: hidden;
-  font-family: 'Roboto Mono', monospace;
   font-weight: 300;
   text-align: center;
+  font-family: 'Roboto Mono', monospace;
 
 }
 
 .nav li{
-  width: 15%;
+  width: 14%;
   float: left;
   text-transform: capitalize;
   list-style: none;
   text-align: center;
+  
   }
 
 .nav a {
@@ -62,6 +62,7 @@ a{
 footer{
   font-family: 'Roboto Slab';
   border-top: black 2px solid;
+  text-align: center;
 }
 
 #contact{

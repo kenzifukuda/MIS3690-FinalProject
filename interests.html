@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kenzi Fukuda">
+    <meta name="keywords" content="questions, what, search, kenzi, fukuda">
     <link rel="stylesheet" type="text/css" href="styles/interests.css">
-    <title>Interests</title>
+    <title>Searches</title>
 </head>
 <body>
     <header>
-        <h1><img id="logo" src="images/personal logo.png" title="logo" alt="kf-logo"></h1>
-        <h1>Welcome</h1>
+        <h1><a href="index.html"><img id="logo" src="images/personal-logo.png" title="logo" alt="kf-logo"></a></h1>
+        <h1>Google Search Compilations</h1>
         <div class="nav">
             <ul>
                 <li>
@@ -30,52 +32,119 @@
                 <li>
                     <a href="listening.html">Current Vibes</a>
                 </li>
+                <li>
+                    <a href="feedback.html">What Do You Think?</a>
+                </li>
             </ul>
     
         </div>
     </header>
 
-    <div class="google">
-        <div>
-            <h2>Questions That Can Only Be Answered After Midnight</h2>
-        </div>
-        <div>
-            <a href="https://www.healthline.com/health/aspiration-pneumonia#:~:text=Pulmonary%20aspiration%20is%20when%20you,clear%20up%20on%20their%20own."><img src="images/lungs.jpg" title="lungs" alt="food-lungs">Food in my LUNGS</a>
-            <a href="https://www.medicalnewstoday.com/articles/182130"><img src="images/sweaty-man-in-blue-shirt.jpg" title="sweaty" alt="sweaty">Hydrated but Sweaty</a>
-            <a href="https://www.mayoclinic.org/diseases-conditions/rabies/symptoms-causes/syc-20351821"><img src="images/foaming mouth guy.gif" title="foaming" alt="foaming">What does rabies look like?</a>
-            <a href="https://www.scientificamerican.com/article/why-does-bright-light-cau/"><img src="images/sneezing.jpg" title="sneezing" alt="sneeze">Sneezing in the Sun</a>
-            <a href="https://modernfarmer.com/2014/03/monsantos-good-bad-pr-problem/"><img src="images/monsanto.PNG" title="monsanto" alt="monsanto-logo">Monsanto...</a>
-            <a href="https://knowyourmeme.com/memes/loss"><img src="images/lossminimal.jpg" title="loss" alt="loss-memes">Is This Loss?</a>
-            <a href="https://www.allaboutbirds.org/guide/Black-capped_Chickadee/id"><img src="images/chickadee.jpg" title="chickadees" alt="chickadees">Are Chickadees Real?</a>
-            <a href="https://www.womenshealthmag.com/food/g27397171/best-dairy-free-yogurt/"><img src="images/dairy free yogurt.jpg" title="yogurt" alt="yogurt">Dairy-Free Yogurt?</a>
-            <a href="https://www.battlefields.org/learn/head-tilting-history/rise-and-fall-powdered-wig"><img src="images/powdered wigs.jpg" title="wig" alt="wig">What is the point of powdered wigs?</a>
+    <h2>Questions Only Asked After Midnight</h2>
 
-        </div>
+    <p>
+        <img id="slide" src="images/sweaty-man-in-blue-shirt.jpg" title="Pictures" alt="Slideshow">
         
+    </p> 
+    <p >
+        <a id="caption" href="https://www.medicalnewstoday.com/articles/182130">Hydrated but Sweaty</a>
+    </p>
 
-    </div>
+
+    <script>
+        const slides = [
+            "images/sweaty-man-in-blue-shirt.jpg",
+            "images/lungs.jpg",
+            "images/foaming-mouth-guy.gif",
+            "images/sneezing.jpg",
+            "images/monsanto.PNG",
+            "images/lossminimal.jpg",
+            "images/chickadee.jpg",
+            "images/dairy free yogurt.jpg",
+            "images/powdered wigs.jpg"
+        ];
+
+        const links = [
+            "https://www.medicalnewstoday.com/articles/182130",
+            "https://www.healthline.com/health/aspiration-pneumonia#:~:text=Pulmonary%20aspiration%20is%20when%20you,clear%20up%20on%20their%20own.",
+            "https://www.mayoclinic.org/diseases-conditions/rabies/symptoms-causes/syc-20351821",
+            "https://www.scientificamerican.com/article/why-does-bright-light-cau/",
+            "https://modernfarmer.com/2014/03/monsantos-good-bad-pr-problem/",
+            "https://knowyourmeme.com/memes/loss",
+            "https://www.allaboutbirds.org/guide/Black-capped_Chickadee/id",
+            "https://www.womenshealthmag.com/food/g27397171/best-dairy-free-yogurt/",
+            "https://www.battlefields.org/learn/head-tilting-history/rise-and-fall-powdered-wig"
+
+        ];
+
+        const texts = [
+            "Hydrated but Sweaty",
+            "Food in my LUNGS",
+            "What does rabies look like?",
+            "Sneezing in the Sun",
+            "Monsanto...",
+            "Is This Loss?",
+            "Are Chickadees Real?",
+            "Dairy-Free Yogurt?",
+            "What is the point of powdered wigs?"
+        ];
+
+        let i = 0;
+        let t = 0;
+        let l = 0;
+
+        function slideShow() {
+            let image1 = document.getElementById("slide");
+            let caption = document.getElementById("caption");
+            if (i === slides.length) {
+                i = 0;
+            }
+            if (t === texts.length) {
+                t = 0;
+            }
+            if (l === links.length) {
+                l = 0;
+            }
+            image1.src = slides[i];
+            caption.innerText = texts[i];
+            caption.href = links[i];
+
+            i++;
+            t++;
+            l++;
+            setTimeout(slideShow, 2000);
+        }
+
+        document.querySelector("body").onload = slideShow;
+
+    </script>
+
+    <br>
 
     <footer>
-        <div>
-            <a href="sitemap.html">Sitemap</a>
-        </div>
                   
         <ul id="contact">
+
             <li>
                 Contact Info:
             </li>
             <li>
-                | Name: Kenzi Fukuda |
+                Kenzi Fukuda |
             </li>
             <li>
                 Email: <a href="mailto:kfukuda1@babson.edu">kfukuda1@babson.edu</a> |
             </li>
             <li>
-                Phone: 201-362-7472
+                Phone: 201-362-7472 |
+            </li>
+            <li>
+                <a href="sitemap.html">Sitemap</a> |
+            </li>
+            <li>
+                <a href="credits.html">Credits</a>
             </li>
         </ul>
-    
-        </p>
+
     </footer>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->

@@ -42,58 +42,17 @@ h1{
   
 .nav a:hover {
     background-color: lavender;
-  }
-
-/* #blog{
-    text-align: center;
-    margin: auto;
-  } */
-
-/* iframe{
-    border-color: black;
-} */
-
-.big {
-    width: 100%;
-    margin: 5px;
-    padding: 2px;
-}
-
-.big tr,
-.big td{
-    border: #7a12ff 2px solid;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 300;
-    color: black;
-    text-align: justify;
-}
-
-#what{
-    text-align: center;
-}
-
-
-.social{
-    width: 50px;
-}
-
-#ugly{
-    width:100px;
-}
-
-#question{
-    text-align: center;
-}
-
-#week{
-    text-align: center;
-}
-
-
-footer{
+  }footer{
     font-family: 'Roboto Slab';
     border-top: black 2px solid;
     text-align: center;
+}
+
+.credits{
+    font-family: 'Roboto', monospace;
+}
+.credits li{
+    list-style: none;
 }
 
 #contact{

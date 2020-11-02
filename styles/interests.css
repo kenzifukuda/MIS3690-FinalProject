@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&family=Roboto+Slab&display=swap');
+header{
+    margin: 5px;
+    border: 2px #7a12ff solid;
+    padding: 2px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
 
+#logo{
+    width: 50px;
+    float:left;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Roboto Slab';
+}
 
 .nav {
   overflow: hidden;
@@ -10,7 +27,7 @@
 }
 
 .nav li{
-  width: 15%;
+  width: 14%;
   float: left;
   text-transform: capitalize;
   list-style: none;
@@ -28,31 +45,32 @@
 }
 
 
-#contact li{
-  display: inline-block;
-}
-
-
-.container{
-  width:1000px;
-  padding: 5px;
-  display: block;
-}
-
-.container a{
-  text-align: center;
-  display:inline-block;
+h2{
   font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  text-align: center;
 }
 
-img{
-  width:100px;
+p{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 15px;
+  text-align: center;
 }
+
+#slide{
+  display: block;
+  width:25%;
+  margin-left: 38%;
+  margin-right: 52%;
+
+}
+
 
 
 footer{
   font-family: 'Roboto Slab';
   border-top: black 2px solid;
+  text-align: center;
 }
 
 #contact{
@@ -61,4 +79,9 @@ footer{
 
 #contact li{
   display: inline-block;
-  }
+}
+
+
+
+
+

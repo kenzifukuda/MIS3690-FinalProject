@@ -1,57 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&family=Roboto+Slab&display=swap');
 header{
-  margin: 5px;
-  border: 2px black solid;
-  padding: 2px;
-  display: block;
-  width: 100%;
-  text-align: center;
+    margin: 5px;
+    border: 2px #7a12ff solid;
+    padding: 2px;
+    display: block;
+    width: 100%;
+    text-align: center;
 }
 
 #logo{
-  width: 50px;
-  float:left;
+    width: 50px;
+    float:left;
 }
 
 h1{
-  text-align: center;
-  font-family: 'Roboto Slab';
+    text-align: center;
+    font-family: 'Roboto Slab';
 }
 
 .nav {
-overflow: hidden;
-font-family: 'Roboto Mono', monospace;
-font-weight: 300;
-text-align: center;
+  overflow: hidden;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+  text-align: center;
 
 }
 
 .nav li{
-width: 15%;
-float: left;
-text-transform: capitalize;
-list-style: none;
-text-align: center;
-}
+  width: 14%;
+  float: left;
+  text-transform: capitalize;
+  list-style: none;
+  text-align: center;
+  }
 
 .nav a {
-padding: 10px;
-text-decoration: none;
-display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .nav a:hover {
-background-color: lavender;
+  background-color: lavender;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+caption{
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 15px;
 }
 
 footer{
   font-family: 'Roboto Slab';
   border-top: black 2px solid;
+  text-align: center;
 }
 
 #contact{
-list-style: none;
+  list-style: none;
 }
 
 #contact li{
-display: inline-block;
+  display: inline-block;
 }

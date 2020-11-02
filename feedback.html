@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kenzi Fukuda">
+    <meta name="keywords" content="feedback, email, reply, kenzi, fukuda">
+    <link rel="stylesheet" type="text/css" href="styles/feedback.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <h1><a href="index.html"><img id="logo" src="images/personal-logo.png" title="logo" alt="kf-logo"></a></h1>
+        <h1>What Do You Think?</h1>
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="me.html">About Me</a>
+                </li>
+                <li>
+                    <a href="blog.html">Where Is My Mind</a>
+                </li>
+                <li>
+                    <a href="career.html">Professional</a>
+                </li>
+                <li>
+                    <a href="interests.html">Google Search Compilations</a>
+                </li>
+                <li>
+                    <a href="listening.html">Current Vibes</a>
+                </li>
+                <li>
+                    <a href="feedback.html">What Do You Think?</a>
+                </li>
+            </ul>
+    
+        </div>
+    
+    
+    </header>
+
+    <div class="feedback">
+        <form method="POST" action="kenzifukuda.me">
+            <fieldset>
+                <legend>Feedback:</legend>
+                <div id="last-name-input">
+                    <label for="last-name">Last Name:</label>
+                    <input 
+                    type="text"
+                    name="last-name"
+                    id="last-name"
+                    placeholder="Enter Last Name"
+                    />
+                </div>
+            
+                <div id="first-name-input">
+                    <label for="first-name">First Name:</label>
+                    <input 
+                    type="text"
+                    name="first-name"
+                    id="first-name"
+                    placeholder="Enter First Name"
+                    />
+                </div>
+            
+                <div id="email-input">
+                    <label for="email">Email:</label>
+                    <input 
+                    type="text"
+                    name="email"
+                    id="email"
+                    placeholder="Enter Email"
+                    />
+                </div>
+                
+
+                <div>
+                    <div>
+                        <label for="comments">Leave a Reply</label>
+                    </div>
+                    <div>
+                        <textarea name="comments" id="comments" cols="30" rows="7" placeholder="Leave a reply here..."></textarea>
+                    </div>
+            
+                </div>
+            
+                <div>
+                    <button id="submit"
+                        type="submit"
+                        name="submit">Submit <img class="button-img" src="images/mailbox.png" title="submit" alt="submit">
+                    </button>
+                    <button id="reset"
+                        type="reset"
+                        name="reset">Reset <img class="button-img" src="images/reset.png" title="reset" alt="reset">
+                    </button>
+                </div> 
+
+
+            </fieldset>
+            
+        </form>
+
+    </div>
+
+    <br>
+
+    <footer>
+                  
+        <ul id="contact">
+
+            <li>
+                Contact Info:
+            </li>
+            <li>
+                Kenzi Fukuda |
+            </li>
+            <li>
+                Email: <a href="mailto:kfukuda1@babson.edu">kfukuda1@babson.edu</a> |
+            </li>
+            <li>
+                Phone: 201-362-7472 |
+            </li>
+            <li>
+                <a href="sitemap.html">Sitemap</a> |
+            </li>
+            <li>
+                <a href="credits.html">Credits</a>
+            </li>
+        </ul>
+    </footer>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-181022990-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-181022990-1');
+    </script>
+    
+</body>
+</html>
