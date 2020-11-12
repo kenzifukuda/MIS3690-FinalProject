@@ -1,105 +1,213 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&family=Roboto+Slab&display=swap');
-header{
-    margin: 5px;
-    border: 2px #7a12ff solid;
-    padding: 2px;
-    display: block;
-    width: 100%;
-    text-align: center;
-}
 
-#logo{
-    width: 50px;
-    float:left;
-}
-
-h1{
-    text-align: center;
-    font-family: 'Roboto Slab';
-}
-
-.nav {
-    overflow: hidden;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 300;
-    text-align: center;
-
-  }
-
-.nav li{
-    width: 14%;
-    float: left;
-    text-transform: capitalize;
-    list-style: none;
-    text-align: center;
+@media (max-width: 414px) {
+    header{
+        margin: 2px;
+        border: 1px #7a12ff solid;
+        padding: 1px;
+        display: block;
+        width: 100%;
+        text-align: center;
     }
-  
-.nav a {
-    padding: 10px;
-    text-decoration: none;
-    display: inline-block;
+    
+    #logo{
+        width: 50px;
+        float:left;
+    }
+    
+    h1{
+        text-align: center;
+        font-family: 'Roboto Slab';
+    }
+    
+    .nav {
+        overflow: hidden;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 300;
+        text-align: center;
+      }
+    
+    .nav li{
+        width: 14%;
+        float: left;
+        text-transform: capitalize;
+        list-style: none;
+        text-align: center;
+        }
+      
+    .nav a {
+        padding: 1px;
+        text-decoration: none;
+        display: inline-block;
+      }
+      
+    .nav a:hover {
+        background-color: lavender;
+      }
+    
+    .big {
+        width: 100%;
+        margin: 2px;
+        padding: 1px;
+    }
+    
+    .big tr,
+    .big td{
+        border: #7a12ff 1px solid;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 300;
+        color: black;
+        text-align: justify;
+    }
+    
+    #what{
+        text-align: center;
+    }
+    
+    
+    #social-media{
+        width: 20px;
+        margin: auto;
+        display: inline;
+    }
+    
+    #social-media img{
+        width: 10px
+    }
+    
+    #ugly{
+        width:50px;
+        margin: auto;
+    }
+
+    #ugly img{
+        width: 50px;
+    }
+    
+    #question{
+        text-align: center;
+    }
+    
+    #week{
+        text-align: center;
+    }
+    
+    
+    footer{
+        font-family: 'Roboto Slab';
+        border-top: black 1px solid;
+        text-align: center;
+    }
+    
+    #contact{
+        list-style: none;
+    }
+    
+    #contact li{
+        display: inline-block;
+    }
+    
   }
-  
-.nav a:hover {
-    background-color: lavender;
+
+@media (min-width: 415px) {
+    header{
+        margin: 5px;
+        border: 2px #7a12ff solid;
+        padding: 2px;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #logo{
+        width: 50px;
+        float:left;
+    }
+    
+    h1{
+        text-align: center;
+        font-family: 'Roboto Slab';
+    }
+    
+    .nav {
+        overflow: hidden;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 300;
+        text-align: center;
+    
+      }
+    
+    .nav li{
+        width: 14%;
+        float: left;
+        text-transform: capitalize;
+        list-style: none;
+        text-align: center;
+        }
+      
+    .nav a {
+        padding: 10px;
+        text-decoration: none;
+        display: inline-block;
+      }
+      
+    .nav a:hover {
+        background-color: lavender;
+      }
+    
+    .big {
+        width: 100%;
+        margin: 5px;
+        padding: 2px;
+    }
+    
+    .big tr,
+    .big td{
+        border: #7a12ff 2px solid;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 300;
+        color: black;
+        text-align: justify;
+    }
+    
+    #what{
+        text-align: center;
+    }
+    
+    
+    #social-media{
+        width: 200px;
+        margin: auto;
+        display: inline;
+    }
+    
+    #ugly{
+        width:100px;
+        margin: auto;
+    }
+    
+    #question{
+        text-align: center;
+    }
+    
+    #week{
+        text-align: center;
+    }
+    
+    
+    footer{
+        font-family: 'Roboto Slab';
+        border-top: black 2px solid;
+        text-align: center;
+    }
+    
+    #contact{
+        list-style: none;
+    }
+    
+    #contact li{
+        display: inline-block;
+    }
+    
   }
 
-/* #blog{
-    text-align: center;
-    margin: auto;
-  } */
-
-/* iframe{
-    border-color: black;
-} */
-
-.big {
-    width: 100%;
-    margin: 5px;
-    padding: 2px;
-}
-
-.big tr,
-.big td{
-    border: #7a12ff 2px solid;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 300;
-    color: black;
-    text-align: justify;
-}
-
-#what{
-    text-align: center;
-}
-
-
-.social{
-    width: 50px;
-}
-
-#ugly{
-    width:100px;
-}
-
-#question{
-    text-align: center;
-}
-
-#week{
-    text-align: center;
-}
-
-
-footer{
-    font-family: 'Roboto Slab';
-    border-top: black 2px solid;
-    text-align: center;
-}
-
-#contact{
-    list-style: none;
-}
-
-#contact li{
-    display: inline-block;
-}
