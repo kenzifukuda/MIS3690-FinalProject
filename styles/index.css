@@ -2,12 +2,9 @@
 
 @media (max-width: 414px) {
     header{
-        margin: 2px;
         border: 1px #7a12ff solid;
-        padding: 1px;
         display: block;
         width: 100%;
-        text-align: center;
     }
     
     #logo{
@@ -20,26 +17,27 @@
         font-family: 'Roboto Slab';
     }
     
-    .nav {
+    .nav ul{
         overflow: hidden;
+        list-style-type: none;
         font-family: 'Roboto Mono', monospace;
-        font-weight: 300;
-        text-align: center;
+        font-weight: 300;  
+        margin: 0;
+        padding: 0;
       }
-    
+
     .nav li{
-        width: 14%;
         float: left;
-        text-transform: capitalize;
-        list-style: none;
+        font-size: 10px;
+        width: 18%;
         text-align: center;
-        }
-      
-    .nav a {
-        padding: 1px;
+    }
+
+    .nav a{
+        display: block;
         text-decoration: none;
-        display: inline-block;
-      }
+    }
+      
       
     .nav a:hover {
         background-color: lavender;
