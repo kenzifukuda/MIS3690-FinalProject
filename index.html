@@ -2,6 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <meta name="keywords" content="kenzi, fukuda, blog, personal, website, babson">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Kenzi Fukuda">
@@ -10,117 +27,98 @@
     <title>Homepage</title>
 </head>
 <body>
+    
+
     <header>
         <h1><a href="index.html"><img id="logo" src="images/personal-logo.png" title="logo" alt="kf-logo"></a></h1>
-        <h1>Welcome</h1>
-        <div class="nav">
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="me.html">About Me</a>
-                </li>
-                <li>
-                    <a href="blog.html">Where Is My Mind</a>
-                </li>
-                <li>
-                    <a href="career.html">Professional</a>
-                </li>
-                <li>
-                    <a href="interests.html">Googling</a>
-                </li>
-                <li>
-                    <a href="listening.html">Current Vibes</a>
-                </li>
-                <li>
-                    <a href="feedback.html">What Do You Think?</a>
-                </li>
-            </ul>
-    
+        <!-- Navigation-->
+        <div class="topnav" id="myTopnav">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="listening.html">Current Vibes</a>
+            <a href="interests.html">Googling</a>
+            <a href="career.html">Professional</a>
+            <a href="blog.html">My Mind</a>
+            <a href="me.html">About Me</a>
+            <a href="index.html" class="active">Home</a>
+            
         </div>  
-    
+        <h1>Welcome</h1>
     </header>
 
-
-    <table class="big">
-
-        <tr>
-            <td id="what">
-                What is this?
-            </td>
-            <td>
-                About Me
-            </td>
-        </tr>
-
-        <tr>
-            <td rowspan="2">
-                Welcome! My name is Kenzi, and you've stumbled upon my new personal website. Previously, I was using Wix to create host my website, but 
+    <div class="container">
+        <div id="e-section" class="explaining">
+            <h2 id="what"> What Is This?</h2>
+            <p id="summary">
+                Welcome! My name is Kenzi, and you've stumbled upon my new personal website. Previously, I was using Wix to create and host my website, but 
                 I've decided to give web design from scratch a try. I apologize if it's not as aesthetically appealing (yet).
                 This website is a product of a Babson class project I have to do to pass, my own boredom, and the desire to start creating
-                my own content. If you follow my finsta, you know I like to keep things interesting and dramatic. I complain a lot and constantly find myself in strange,
-                uncomfortable, and unexpected situations. This place will be a little different.                
+                my own content.
+                <br>
+                <br>               
                 Here you will find a blog for my thoughts on the world,
                 concepts that I think  need be explored or questioned further, and some 
                 recommendations for music, movies, books, etc. that I think are worth looking into.
-                In addition, I have added a page for all my professional work experiences and projects. Will I be puttng this on my resume to show to employers? We'll see how good it looks later on.
+                In addition, I have added a page for all my professional work experiences and projects. 
+                Will I be puttng this on my resume to show to employers? We'll see how good it looks later on.
                 <br>
-                DISCLAIMER: Nothing I write in my blog posts are likely to be based in facts because researching these things in depth is
-                too much work rignt now. But if I am using outside research, I'll be sure to provide my sources. 
-                Besides the blog, I also have a page dedicated to my random Google searches as previously seen on my finsta.
-                AND for when/if I start recording podcast episodes, that will be uploaded here as well. Still working on a title for the podcast,
-                and I am taking suggestions :)
+                <br>
+                DISCLAIMER: A lot of what I'm writing here is opinion, but if I am using outside research, I'll be sure to provide my sources. 
+                Besides the blog, I also have a page dedicated to my random Google searches because these are the thoughts that 
+                keep me up at night and I need you to know that.
+                <br>
                 <br>
                 I'm hoping to add other pages as well for art or business ideas or anything else I feel like putting on here, so stay tuned...
                 <br>
-                So with that, I hope you enjoy! Scroll to the bottom if you have any comments or suggestions for the page that you'd like to send in.
-                Or just text me, because most of you probably have less awkward way of contacting me. 
-                This is more for my own entertainment than anyone else's.
-            </td>
-            <td>
-                <div id="ugly">
-                    <img src="images/ugly-selfie(1).jpg" title="kenzi-fukuda" alt="selfie" width="100px">
-                </div>
-                <div>
-                    My name is Kenzi, and welcome to my M I N D
-                    <br>
-                    I am really bored during this pandemic, and thought this would be a good way to keep myself busy.
-                    I hope you find my content amusing, or at the very least, that it keeps you occupied for a 
-                    little while each time you visit.
-                    <br>
-                    <a href="me.html">Read More</a>
-                </div>
-                
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <div>
-                    Follow Me:
-                </div>
-                <div id="social-media">
-                    <a href="https://www.instagram.com/f__kenzi/"><img src="images/instagram-icon.webp" title="instagram" alt="instagram" width="50px"></a>
-                    <a href="https://twitter.com/KenziFukuda"><img src="images/twitter-icon.png" title="twitter" alt="twitter" width="50px"></a>
-                    <a href="https://www.linkedin.com/in/kenzifukuda/"><img src="images/linkedin-icon.png" title="linkedin" alt="linkedin" width="50px"></a>
-                </div>
-                
-            </td>
-        </tr>
+                <br>
+                I hope you enjoy! And just know, this is more for my own entertainment than anyone else's.
+            </p>
+        </div>
 
-        <tr>
-            <td id="week" colspan="2">
+
+        <!-- The About Section -->
+        <div id="a-section" class="about" style="max-width:800px">
+            <h2 id="about-me">About Me</h2>
+            <p id="me">
+                My name is Kenzi, and welcome to my M I N D
+                <br>
+                <br>
+                I am really bored during this pandemic, and thought this would be a good way to keep myself busy.
+                I hope you find my content amusing, or at the very least, that it keeps you occupied for a 
+                little while each time you visit.
+                <br>
+                <br>
+                <a href="me.html">Read More</a>                
+            </p>
+
+            <div class="mePics">
+                <div class="w3-third">
+                    <p>Me and My Friends</p>
+                    <img id="friends-pic" src="images/505.jpg" title="505" alt="roomates" width="200px">
+                </div>
+                <div class="w3-third">
+                    <p>The Duality of Me</p>
+                    <img id="ugly-pic" src="images/ugly-selfie(1).jpg" title="kenzi-fukuda" alt="selfie" width="150px">
+                </div>
+                <div class="w3-third">
+                    <p>In Korea</p>
+                    <img id="korea-pic" src="images/korea-locks.jpg" title="korea" alt="korea-locks" width="200px">
+                </div>
+            </div>
+        </div>
+
+    
+        <div id="q-section" class="question">
+            <h2 id="the-week">
                 Question of the Week:
-            </td>
-        </tr>
-
-        <tr>
-            <td id="question" colspan="2">
-                How long would you wait to get the vaccine?
-            </td>
-        </tr>
-    </table>
-   
+            </h2>
+            <p>
+                <span id="the-question">Are we all just pretending alcohol tastes good?</span> 
+            </p>
+            <button id="colorChange">Click Me!</button>
+        </div>
+    </div>
+       
 <br>
 
     <footer>
@@ -143,8 +141,13 @@
                 <a href="sitemap.html">Sitemap</a> |
             </li>
             <li>
-                <a href="credits.html">Credits</a>
+                <a href="credits.html">Credits</a> |
             </li>
+            <div id="social-media">
+                <a href="https://www.instagram.com/f__kenzi/"><img src="images/instagram-icon.webp" title="instagram" alt="instagram" width="50px"></a>
+                <a href="https://twitter.com/KenziFukuda"><img src="images/twitter-icon.png" title="twitter" alt="twitter" width="50px"></a>
+                <a href="https://www.linkedin.com/in/kenzifukuda/"><img src="images/linkedin-icon.png" title="linkedin" alt="linkedin" width="50px"></a>
+            </div>
         </ul>
     </footer>
     
@@ -157,6 +160,64 @@
 
   gtag('config', 'UA-181022990-1');
 </script>
+<script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+        let x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+<script>
+    // changing picture on homepage from good to bad picture on mouseover
+    function changePic() {
+        let img1 =  document.getElementById("ugly-pic");
+        // console.log(img1);
+        let w = img1.width;
+        img1.src = "images/kenzi.jpg";
+        w = "300";
+        console.log(w);  
+        // console.log("yes");   
+
+    }
+
+    function changeBack() {
+        let img1 =  document.getElementById("ugly-pic");
+        let w = img1.width;
+        img1.src = "images/ugly-selfie(1).jpg";  
+        w = "100"; 
+        console.log(w);  
+        // console.log("yes");   
+    }
+
+    document.getElementById("ugly-pic").onmouseover = changePic;
+    document.getElementById("ugly-pic").onmouseout = changeBack;
+
+
+    let q = document.getElementById("q-section");
+    let a = document.getElementById("a-section");
+    let e = document.getElementById("e-section");
+    let question = document.getElementById("the-question");
+    function changeColor () {
+        q.style.backgroundColor = "white";
+        q.style.color = "black";
+        document.getElementById('the-week').style.color = "black";
+        a.style.backgroundColor = "black";
+        a.style.color = "white";
+        document.getElementById('about-me').style.color = "white";
+        e.style.backgroundColor = "white";
+        e.style.color = "black";
+        document.getElementById('what').style.color = "black";
+        question.innerText = 'Which style do you like more? Leave a comment in the feedback section!';
+
+    }
+
+    document.getElementById("colorChange").onclick = changeColor;
+</script>
+</body>
 
 
 

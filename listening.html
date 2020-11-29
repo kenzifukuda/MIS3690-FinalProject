@@ -1,47 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <head>
+        <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Kenzi Fukuda">
-    <meta name="keywords" content="listening, music, spotify, kenzi, fukuda">
-    <link rel="icon" type="image/png" href="images/personal-logo.png"/>
-    <link rel="stylesheet" type="text/css" href="styles/listening.css"> 
-    <title>Listening</title>
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="author" content="Kenzi Fukuda">
+        <meta name="keywords" content="listening, music, spotify, kenzi, fukuda">
+        <link rel="icon" type="image/png" href="images/personal-logo.png"/>
+        <link rel="stylesheet" type="text/css" href="styles/listening.css"> 
+        <title>Listening</title>
 </head>
 <body>
     <header>
         <h1><a href="index.html"><img id="logo" src="images/personal-logo.png" title="logo" alt="kf-logo"></a></h1>
+        <!-- Navigation-->
+        <div class="topnav" id="myTopnav">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="listening.html">Current Vibes</a>
+            <a href="interests.html">Googling</a>
+            <a href="career.html">Professional</a>
+            <a href="blog.html">My Mind</a>
+            <a href="me.html">About Me</a>
+            <a href="index.html" class="active">Home</a>
+            
+        </div>  
         <h1>Current Vibes</h1>
-        <div class="nav">
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="me.html">About Me</a>
-                </li>
-                <li>
-                    <a href="blog.html">Where Is My Mind</a>
-                </li>
-                <li>
-                    <a href="career.html">Professional</a>
-                </li>
-                <li>
-                    <a href="interests.html">Googling</a>
-                </li>
-                <li>
-                    <a href="listening.html">Current Vibes</a>
-                </li>
-                <li>
-                    <a href="feedback.html">What Do You Think?</a>
-                </li>
-            </ul>
-    
-        </div>
-    
-    
     </header>
+
+    <div id="container">
+        <h2 id="animate"><a href="https://open.spotify.com/user/kenzifukuda?si=MV_ud4RuSWC_n10ZLy5C7g">Follow My Spotify!</a></h2>
+    </div>
+
     <!-- insert "follow my spotify" in moving text  -->
     <div class="container">
         <div>
@@ -62,19 +69,9 @@
         <div>
             <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX5IOhx43PGIa" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </div>
-        <div>
-            <iframe src="https://open.spotify.com/embed/playlist/4ZNR9So9BNOCQNEniuNhMr" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        </div>
-        <div>
-            <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcxvFzl58uP7" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        </div>
-        <div>
-            <iframe src="https://open.spotify.com/embed/album/1JsySWOa2RchsBB2N4313v" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        </div>
+        
         
     </div>
-    
-    <br>
 
     <footer>
                   
@@ -96,13 +93,17 @@
                 <a href="sitemap.html">Sitemap</a> |
             </li>
             <li>
-                <a href="credits.html">Credits</a>
+                <a href="credits.html">Credits</a> |
             </li>
+            <div id="social-media">
+                <a href="https://www.instagram.com/f__kenzi/"><img src="images/instagram-icon.webp" title="instagram" alt="instagram" width="50px"></a>
+                <a href="https://twitter.com/KenziFukuda"><img src="images/twitter-icon.png" title="twitter" alt="twitter" width="50px"></a>
+                <a href="https://www.linkedin.com/in/kenzifukuda/"><img src="images/linkedin-icon.png" title="linkedin" alt="linkedin" width="50px"></a>
+            </div>
         </ul>
-
     </footer>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    
+<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-181022990-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -111,6 +112,34 @@
 
   gtag('config', 'UA-181022990-1');
 </script>
+<script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+        let x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+<script>
+    function myMove() {
+        let elem = document.getElementById("animate");   
+        let pos = 0;
+        let id = setInterval(frame, 5);
+        function frame() {
+            if (pos == 1000) {
+                clearInterval(id);
+            } else {
+                pos++;
+                elem.style.left = pos + 'px';
+            }
+        }
+        
+    }
 
+    document.querySelector('body').onload = myMove;
+    </script>
 </body>
 </html>
