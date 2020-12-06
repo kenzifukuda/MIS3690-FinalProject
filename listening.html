@@ -124,22 +124,43 @@
     }
 </script>
 <script>
-    function myMove() {
-        let elem = document.getElementById("animate");   
-        let pos = 0;
-        let id = setInterval(frame, 5);
-        function frame() {
-            if (pos == 1000) {
-                clearInterval(id);
-            } else {
-                pos++;
-                elem.style.left = pos + 'px';
-            }
+
+    const moving = document.getElementById("animate");
+    let p = 5;
+    let i = 0;
+
+    function move() {
+        moving.style.left = p + "px";
+        if (p > document.querySelector('#container').clientWidth - 50) {
+          p = 5;
+          i++;
+          if (i === moving.length) {
+            i = 0;
+          }
+        } else {
+          p = p + 5;
         }
-        
+        setTimeout(move, 50);
     }
 
-    document.querySelector('body').onload = myMove;
+
+
+    // function myMove() {
+    //     let elem = document.getElementById("animate");   
+    //     let pos = 0;
+    //     let id = setInterval(frame, 5);
+    //     function frame() {
+    //         if (pos == 1000) {
+    //             clearInterval(id);
+    //         } else {
+    //             pos++;
+    //             elem.style.left = pos + 'px';
+    //         }
+    //     }
+        
+    // }
+
+    document.querySelector('body').onload = move;
     </script>
 </body>
 </html>
